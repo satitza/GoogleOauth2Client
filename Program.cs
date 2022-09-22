@@ -21,8 +21,8 @@ namespace GoogleOauth2Client
 
         static void Main(string[] args)
         {
-            string ClientID = "943041189633-rtudcngddr3n3mlpg2em7e79ad7ianv5.apps.googleusercontent.com";
-            string SecretKey = "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";
+            string ClientID = "ClientID";
+            string SecretKey = "SecretKey";
 
             var ClientSecret = new ClientSecrets();
             ClientSecret.ClientId = ClientID;
