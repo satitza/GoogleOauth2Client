@@ -81,7 +81,7 @@ namespace GoogleOauth2Client
                 Console.WriteLine(String.Format("ApiKey : {0}", gmailService.ApiKey));
                 Console.WriteLine(String.Format("GZipEnabled : {0}", gmailService.GZipEnabled));
 
-                Profile gmailProfile = gmailService.Users.GetProfile("satitza21@gmail.com").Execute();
+                Profile gmailProfile = gmailService.Users.GetProfile("gmail@gmail.com").Execute();
                 Console.WriteLine(String.Format("EmailAddress : {0}", gmailProfile.EmailAddress));
                 Console.WriteLine(String.Format("MessagesTotal : {0}", gmailProfile.MessagesTotal));
                 Console.WriteLine(String.Format("ETag : {0}", gmailProfile.ETag));
